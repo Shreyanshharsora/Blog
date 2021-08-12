@@ -1,0 +1,29 @@
+{
+  "name": "blog_app",
+  "version": "2.0.0",
+  "description": "Personal blog web app using Node.js By Shreyansh ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "jsdom": "^16.2.1",
+    "marked": "^0.8.0",
+    "method-override": "^3.0.0",
+    "slugify": "^1.4.0",
+    "dompurify": "^2.0.8"
+  }
+}
